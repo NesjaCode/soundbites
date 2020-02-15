@@ -26,8 +26,8 @@
 
 	.gallery-container div {
 		display: block;
-		height: 220px;
-		width: 320px;
+		height: 360px;
+		width: 250px;
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -3142,7 +3142,7 @@
 		.wrapper.style3 {
 			background-color: #000;
 			color: #bfbfbf;
-			background-image: url(../../images/bg.jpg);
+			background-image: url(../../images/pic07.jpg);
 			background-size: cover;
 			background-attachment: fixed;
 			background-position: center;
@@ -4093,10 +4093,10 @@
 			-webkit-pointer-events: none;
 			-ms-pointer-events: none;
 			pointer-events: none;
-			-moz-transition: opacity 1.5s ease-in-out, visibility 1.5s;
-			-webkit-transition: opacity 1.5s ease-in-out, visibility 1.5s;
-			-ms-transition: opacity 1.5s ease-in-out, visibility 1.5s;
-			transition: opacity 1.5s ease-in-out, visibility 1.5s;
+			-moz-transition: opacity 1s ease-in-out, visibility 1s;
+			-webkit-transition: opacity 1s ease-in-out, visibility 1s;
+			-ms-transition: opacity 1s ease-in-out, visibility 1s;
+			transition: opacity 1s ease-in-out, visibility 1s;
 			background: #000000;
 			content: '';
 			display: block;
@@ -4152,10 +4152,10 @@
 				}
 
 		.banner > article {
-			-moz-transition: opacity 1.5s ease, visibility 1.5s;
-			-webkit-transition: opacity 1.5s ease, visibility 1.5s;
-			-ms-transition: opacity 1.5s ease, visibility 1.5s;
-			transition: opacity 1.5s ease, visibility 1.5s;
+			-moz-transition: opacity 1s ease, visibility 1s;
+			-webkit-transition: opacity 1s ease, visibility 1s;
+			-ms-transition: opacity 1s ease, visibility 1s;
+			transition: opacity 1s ease, visibility 1s;
 			background-attachment: fixed;
 			background-position: center;
 			background-repeat: no-repeat;
