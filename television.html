@@ -11,6 +11,18 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<style>
+	.gallery-container div {
+		display: block;
+		height: 255px;
+		width: 355px;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	.button.alt.select {
+		background-color: rgba(80, 80, 80, 0.1);
+	}
 
 	.container {
 		margin-left: auto;
@@ -36,7 +48,7 @@
 	}
 
 	.container {
-		width: 80rem;
+		width: 95rem;
 	}
 
 	@media screen and (max-width: 1680px) {
@@ -60,7 +72,7 @@
 		}
 
 		.container {
-			width: 80rem;
+			width: 95rem;
 		}
 
 	}
@@ -86,7 +98,7 @@
 		}
 
 		.container {
-			width: 60rem;
+			width: 72rem;
 		}
 
 	}
@@ -112,7 +124,7 @@
 		}
 
 		.container {
-			width: 80%;
+			width: 75%;
 		}
 
 	}
@@ -138,7 +150,7 @@
 		}
 
 		.container {
-			width: 90% !important;
+			width: 70% !important;
 		}
 
 	}
@@ -164,7 +176,7 @@
 		}
 
 		.container {
-			width: 90% !important;
+			width: 93% !important;
 		}
 
 	}
@@ -184,9 +196,9 @@
 			<nav id="menu">
 				<ul class="links">
 					<li><a href="index.html">Home</a></li>
-					<li><a href="equipment.html">Equipment</a></li>
-					<li><a href="contact.html">Contact</a></li>
 					<li><a href="about.html">About</a></li>
+					<li><a href="drama.html">Portfolio</a></li>
+					<li><a href="contact.html">Contact</a></li>
 				</ul>
 			</nav>
 
@@ -194,57 +206,59 @@
 			<section id="One" class="wrapper style3">
 				<div class="inner">
 					<header class="align-center">
-						<p>Sound Bites</p>
-						<h2>Equipment</h2>
+						<h2>Television</h2>
 					</header>
 				</div>
 			</section>
 
 		<!-- Main -->
 			<div id="main" class="container">
-								<div class="table-wrapper">
-									<table class="alt">
-										<thead>
-											<tr>
-												<th>Name</th>
-												<th>Description</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td>Item 1</td>
-												<td>Ante turpis integer aliquet porttitor.</td>
-											</tr>
-											<tr>
-												<td>Item 2</td>
-												<td>Vis ac commodo adipiscing arcu aliquet.</td>
-											</tr>
-											<tr>
-												<td>Item 3</td>
-												<td> Morbi faucibus arcu accumsan lorem.</td>
-											</tr>
-											<tr>
-												<td>Item 4</td>
-												<td>Vitae integer tempus condimentum.</td>
-											</tr>
-											<tr>
-												<td>Item 5</td>
-												<td>Ante turpis integer aliquet porttitor.</td>
-											</tr>
-										</tbody>
-									</table>
-								</div>
+				<div style="display: flex; align-items: center; justify-content: center; margin-bottom: 40px;">
+					<a href="television.html" class="button alt select" style="margin-right: 2rem;">Television</a>
+					<a href="drama.html" class="button alt" style="margin-left: 2rem;">Drama</a>
+				</div>
+
+				<section class="gallery-links">
+					<div class="gallery-container">
+						<h2><strong>Coming Soon 2020</strong></h2>
+						<a href="https://www.imdb.com/title/tt7633550/?ref_=nm_flmg_snd_1" target="_blank">
+							<div style="background-image: url('images/philFrisco_poster.jpg')"></div>
+							<h3>The Kidnapping of Phil Frisco (2020)</h3>
+							<p><strong>SB: </strong>Production sound mixer</p>
+							<p><strong>Director: </strong>Raf Reyntjens/Koen Vansande</p>
+							<p><strong>Production: </strong>Ded’s Film/Cartouche</p>
+						</a>
+						<a href="#" target="_blank">
+							<div style="background-image: url('images/blackout.jpg')"></div>
+							<h3>Black Out (2020)</h3>
+							<p><strong>SB: </strong>Production sound mixer</p>
+							<p><strong>Director: </strong>Joël Vanhoubroeck</p>
+							<p><strong>Production: </strong>Jonny de Pony</p>
+						</a>
 					</div>
+				</section>
+
+				<br>
+				<br>
+				<br>
+
+				<section class="gallery-links">
+					<div class="gallery-container">
+						<h2><strong>Television</strong></h2>
+										
+					</div>
+				</section>	
+			</div>
 			
 
 		<!-- Footer -->
 			<footer id="footer">
 				<div class="container">
 					<ul class="icons">
-						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.imdb.com/name/nm4549789/?ref_=fn_al_nm_4" target="_blank"><img src="images/imdb_logo_gray.png" alt="" style="height: 25px;"></a></li>
 						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+						<li><a href="mailto: miguel@soundbites.be" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
 					</ul>
 				</div>
 				<div class="copyright">
