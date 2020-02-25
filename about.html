@@ -14,10 +14,11 @@
 			.wrapper.style3 {
 			background-color: #000;
 			color: #bfbfbf;
-			background-image: url(images/miguel_groot.png);
-			background-size: cover;
-			background-attachment: fixed;
-			background-position: center;
+			background-image: url(images/miguel_klein.png);
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-attachment: scroll;
+			background-position: 11%;
 			position: relative;
 			}
 
@@ -40,6 +41,32 @@
 				top: 0;
 				width: 100%;
 				z-index: 1;
+			}
+
+			@media screen and (max-width: 980px) {
+				.wrapper.style3 {
+					background-color: #000;
+					color: #bfbfbf;
+					background-image: url(images/miguel_klein.png);
+					background-size: contain;
+					background-repeat: no-repeat;
+					background-attachment: scroll;
+					background-position: 5%;
+					position: relative;
+				}
+			}
+
+			@media screen and (max-width: 736px) {
+				.wrapper.style3 {
+					background-color: #000;
+					color: #bfbfbf;
+					background-image: none;
+					background-size: contain;
+					background-repeat: no-repeat;
+					background-attachment: scroll;
+					background-position: 8%;
+					position: relative;
+				}
 			}
 		</style>
 	</head>
