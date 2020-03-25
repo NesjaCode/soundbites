@@ -4294,6 +4294,10 @@
 				background-attachment: scroll;
 			}
 
+			.banner > article h2 {
+				font-size: 3.5em;
+			}
+
 		}
 
 		@media screen and (max-width: 736px) {
@@ -4303,13 +4307,13 @@
 			}
 
 			.banner > article p {
-				margin-bottom: 1rem;
+				margin-bottom: 0;
+				font-size: 0.8em;
 			}
 
 			.banner > article h2 {
-				font-size: 4em;
+				font-size: 3.5em;
 			}
-
 		}
 
 		body.is-mobile .banner > article {
