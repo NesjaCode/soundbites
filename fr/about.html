@@ -87,7 +87,7 @@
 			<nav id="menu">
 				<ul class="links">
 					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
+					<li><a href="about.html">À propos</a></li>
 					<li><a href="drama.html">Portfolio</a></li>
 					<li><a href="contact.html">Contact</a></li>
 				</ul>
@@ -109,28 +109,30 @@
 					<div class="box">
 						<div class="content">
 							<h3>À propos</h3>
-							<p style="margin: 0">Soundbites : 2 oreilles chevronnées de Miguel de Oliveira e Silva. 
-								J’ai “produit” mes premiers sons au Portugal mais à l’âge de 2,5 je suis parti pour la Belgique.
-								Actuellement, j’habite à Anvers avec ma femme et mes trois enfants. Mes sons préférés sont:
+							<p style="margin: 0">
+								Soundbites, c’est moi, Miguel de Oliveira e Silva, accompagné de quelques collègues passionnées.
+								J’ai “produit” mes premiers sons à Lisbon mais à l’âge de 2,5 je suis parti pour la Belgique.
+								Actuellement, j’habite à Anvers avec ma femme et mes trois enfants. 
+								Mes sons préférés sont:
 							</p>
 							<p style="margin: 0">1. Le rire de ma famille et de mes amis.</p>
 							<p style="margin: 0">2. Le ronronnement de mon vélo de course.</p>
 							<p style="margin: 0">3. Le son de langues étrangères. Je parle le néerlandais, le français, l’anglais et le portugais.</p>
-							<p>4. Les sons de la musique. Ma collection de musique choisie.</p>
+							<p>4. Les sons de la musique dans ma collection éclectique.</p>
 
-							<h3>Ma vision</h3>
+							<h3>Vision</h3>
 							<p>
-								Un seul mot: Le métier. Quand j’étais enfant, enregistrer des sons était mon hobby, plus tard j’en ai fait ma profession. Dans le terme audio-visuel, ‘audio’ est tout aussi important que ‘visuel’. Le son crée une ambiance, conte des histoires et évoque même des images. Tout au long de ma carrière, j’ai continué  à me perfectionner à enregistrer de façon la plus naturelle. Je suis un grand amateur de Dogma 95 Manifesto, où le son n’est jamais enregistré sans l’image. Cela accentue l’importance de la recherche de l’équilibre entre le son et l’image. 
+								Quand j’étais enfant, enregistrer des sons était mon hobby, plus tard j’en ai fait ma profession. Le son crée une ambiance, conte des histoires et évoque même des images. Audio-Visuel. Tout au long de ma carrière, j’ai continué à me perfectionner à enregistrer de façon la plus naturelle. Je suis un grand amateur de Dogma 95 Manifesto, où le son n’est jamais enregistré séparément de l’image. Pas de post-syncro. Celà accentue l’importance de la recherche de l’équilibre entre le son et l’image.  
 							</p>
 
-							<h3>Mon expérience</h3>
+							<h3>Expérience</h3>
 							<p>
 								Après mes études à Bruxelles, j’ai commencé ma vie professionnelle chez Alfacam, une entreprise audio-visuelle. Là je me suis familiarisé avec les techniques du son et de l’image les plus avancées. Très vite j’ai commencé à travailler pour la télévision. J’ai parcouru toute la gamme de productions de télévision: des programmes d’intérêt humain, reportages, documentaires, reality shows, studio, le journal télévisé. J'ai travaillé dans les conditions les plus difficiles: moussons sous les tropiques, tempêtes en mer, vent coupant à -25 ° dans les régions polaires. C'est dans ces circonstances que l’on apprend à tirer le meilleur parti de son matériel. Ces 10 dernières années, je me concentre principalement sur la fiction. Mes expériences m'ont appris à trouver des solutions rapides aux différents défis que l’on rencontre sur un plateau de fiction sous une planification rigoureuse.
 							</p>
 
-							<h3>Mon matériel</h3>
+							<h3>Matériel</h3>
 							<p>
-								Mes oreilles sont bien sûr, mon outil le plus important. Mais pour enregistrer le son, le choix du bon matériel est déterminant pour un résultat optimal. Au cours de ma carrière, j'ai toujours investi dans la qualité, analogique et numérique. Je suis donc très attentif aux derniers développements. <a href="mailto: info@soundbites.be">info@soundbites.be</a>
+								Mes oreilles sont bien sûr, mon outil le plus important. Mais pour enregistrer le son, le choix du bon matériel est déterminant pour un résultat optimal. Au cours de ma carrière, j'ai toujours investi dans la qualité, analogique et numérique. Je suis donc très attentif aux derniers développements. Pour une liste complète: <a href="mailto: info@soundbites.be">info@soundbites.be</a>
 							</p>
 
 						</div>
@@ -138,22 +140,15 @@
 				</div>
 			</section>
 
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="container">
-					<ul class="icons">
-						<li><a href="https://www.imdb.com/name/nm4549789/?ref_=fn_al_nm_4" target="_blank"><img src="../images/imdb_logo_gray.png" alt="" style="height: 25px;"></a></li>
-						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="mailto: miguel@soundbites.be" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-					</ul>
-				</div>
-				<div class="copyright">
-					&copy; Sound Bites. All rights reserved.
-				</div>
-			</footer>
+			<div id="includedFooter"></div>
 
 		<!-- Scripts -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+			<script>
+				$(function(){
+					$("#includedFooter").load("../includes/footer.html"); 
+				});
+			</script>
 			<script src="../assets/js/jquery.min.js"></script>
 			<script src="../assets/js/jquery.scrollex.min.js"></script>
 			<script src="../assets/js/skel.min.js"></script>

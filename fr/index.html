@@ -28,7 +28,7 @@
 			<nav id="menu">
 				<ul class="links">
 					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
+					<li><a href="about.html">À propos</a></li>
 					<li><a href="drama.html">Portfolio</a></li>
 					<li><a href="contact.html">Contact</a></li>
 				</ul>
@@ -40,7 +40,7 @@
 					<img src="../images/slide01.jpg" alt="" />
 					<div class="inner">
 						<header>
-							<p>Location Sound <a>Anywhere</a></p>
+							<p>Le son où vous voulez</a></p>
 							<h2>Sound Bites</h2>
 						</header>
 					</div>
@@ -49,7 +49,7 @@
 					<img src="../images/slide02.jpg" alt="" />
 					<div class="inner">
 						<header>
-							<p>Complete setup for</p>
+							<p>Equipement complet pour</p>
 							<h2>Film</h2>
 						</header>
 					</div>
@@ -67,8 +67,8 @@
 					<img src="../images/slide04.jpg"  alt="" />
 					<div class="inner">
 						<header>
-							<p>Location or Sound Stage for</p>
-							<h2>Series</h2>
+							<p>Décor naturel ou studio pour</p>
+							<h2>Séries</h2>
 						</header>
 					</div>
 				</article>
@@ -76,7 +76,7 @@
 					<img src="../images/slide05.jpg"  alt="" />
 					<div class="inner">
 						<header>
-							<p>Fast and flexible for</p>
+							<p>Flexible et rapide pour</p>
 							<h2>EFP</h2>
 						</header>
 					</div>
@@ -95,11 +95,12 @@
 								</div>
 								<div class="content">
 								  <header class="align-center">
-										<p>Location sound anywhere</p>
-										<h2>Location</h2>
+										<p>Le son où vous voulez</p>
+										<h2>Decors</h2>
 									</header>
-									<p> Whatever the circomstances or the weather conditions. Bringing back good audio is always the key mission. From the Polar cirkel in scandinavia to the tropical beaches in South-East Asia till the north African desert. Keep the gear running!</p>
-									
+									<p> 
+										Quelles que soient les circonstances ou la météo, ramener un son correct reste la mission principale. Du cercle polaire en Scandinavie, en passant par les plages tropicales de l’Asie du Sud-Est jusqu’au désert de l’Afrique du Nord, toujours prêt à tourner.
+									</p>
 								</div>
 							</div>
 						</div> 
@@ -111,11 +112,12 @@
 								</div>
 								<div class="content">
 									<header class="align-center">
-										<p>Location Sound ANYWHERE</p>
-										<h2>Anywhere</h2>
+										<p>Le son où vous voulez</p>
+										<h2>Partout</h2>
 									</header>
-									<p> Over the past tree decades I worked in more than 60 countries. Documentaries, series, film, touristical magazines, investigative journalism or corporate. Traveling light or heavy, whatever the job needs.</p>
-									
+									<p> 
+										Durant les trois dernières décennies j’ai travaillé dans plus de 60 pays différents. Documentaires, séries, flms, magazines touristiques, journalisme d'investigation ou publicités. Bagage réduit si possible, équipement complet si nécessaire.
+									</p>	
 								</div>
 							</div>
 						</div>
@@ -161,23 +163,15 @@
 				</div>
 			</section>
 
-
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="container">
-					<ul class="icons">
-						<li><a href="https://www.imdb.com/name/nm4549789/?ref_=fn_al_nm_4" target="_blank"><img src="../images/imdb_logo_gray.png" alt="" style="height: 25px;"></a></li>
-						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="mailto: miguel@soundbites.be" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-					</ul>
-				</div>
-				<div class="copyright">
-					&copy; Sound Bites bv All rights reserved.
-				</div>
-			</footer>
+			<div id="includedFooter"></div>
 
 		<!-- Scripts -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+			<script>
+				$(function(){
+					$("#includedFooter").load("../includes/footer.html"); 
+				});
+			</script>
 			<script src="../assets/js/jquery.min.js"></script>
 			<script src="../assets/js/jquery.scrollex.min.js"></script>
 			<script src="../assets/js/skel.min.js"></script>

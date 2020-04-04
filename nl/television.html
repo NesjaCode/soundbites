@@ -199,7 +199,7 @@
 			<nav id="menu">
 				<ul class="links">
 					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
+					<li><a href="about.html">Over</a></li>
 					<li><a href="drama.html">Portfolio</a></li>
 					<li><a href="contact.html">Contact</a></li>
 				</ul>
@@ -217,9 +217,9 @@
 		<!-- Main -->
 			<div id="main" class="container">
 				<div style="display: flex; align-items: center; justify-content: center; margin-bottom: 40px;">
-					<a href="corporate.html" class="button alt" style="margin-right: 1rem;">Corporate</a>
+					<a href="drama.html" class="button alt" style="margin-right: 1rem;">Drama</a>
 					<a href="television.html" class="button alt select" style="margin-right: 1rem; margin-left: 1rem;">Television</a>
-					<a href="drama.html" class="button alt" style="margin-left: 1rem;">Drama</a>
+					<a href="corporate.html" class="button alt" style="margin-left: 1rem;">Corporate</a>
 				</div>
 
 				<section id="one" class="wrapper style2" style="background-color: transparent; padding-top: 10px">
@@ -245,23 +245,15 @@
 
 			</div>
 			
-
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="container">
-					<ul class="icons">
-						<li><a href="https://www.imdb.com/name/nm4549789/?ref_=fn_al_nm_4" target="_blank"><img src="images/imdb_logo_gray.png" alt="" style="height: 25px;"></a></li>
-						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="mailto: miguel@soundbites.be" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-					</ul>
-				</div>
-				<div class="copyright">
-					&copy; Sound Bites bv All rights reserved.
-				</div>
-			</footer>
+			<div id="includedFooter"></div>
 
 		<!-- Scripts -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+			<script>
+				$(function(){
+					$("#includedFooter").load("../includes/footer.html"); 
+				});
+			</script>
 			<script src="../assets/js/jquery.min.js"></script>
 			<script src="../assets/js/jquery.scrollex.min.js"></script>
 			<script src="../assets/js/skel.min.js"></script>
