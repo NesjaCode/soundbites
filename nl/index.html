@@ -10,13 +10,14 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="../assets/css/main.css" />
+		<link rel="icon" href="../images/logo_wit.png" type="image/gif" sizes="16x16">
 	</head>
 	<body>
 
 		<!-- Header -->
 			<header id="header" class="alt">
 				<div class="logo">
-					<a href="index.html"><img src="../images/logo_wit.png" style="width:50px; margin-top: 2px"></a>	
+					<a href="index.html"><img src="../images/logo_wit.png" style="width:44px;"></a>	
 				</div>
 				<a style="padding-right: 3px; font-weight: 500;" href="../en/index.html">EN</a>
 				<a style="padding-left: 3px; padding-right: 3px; font-weight: 500;" href="index.html"><span class="activelink">NL</span></a>
@@ -40,7 +41,8 @@
 					<img src="../images/slide01.jpg" alt="" />
 					<div class="inner">
 						<header>
-							<p>Location Sound <a>Anywhere</a></p>
+							<img id="banner_logo" src="../images/logo_wit.png" style="display: inline-block; position: relative; width:80px; bottom: 15px">
+							<p>Setklank <a>Overal</a></p>
 							<h2>Sound Bites</h2>
 						</header>
 					</div>
@@ -49,7 +51,7 @@
 					<img src="../images/slide02.jpg" alt="" />
 					<div class="inner">
 						<header>
-							<p>Complete setup for</p>
+							<p>Complete setup voor</p>
 							<h2>Film</h2>
 						</header>
 					</div>
@@ -58,8 +60,8 @@
 					<img src="../images/slide03.jpg"  alt="" />
 					<div class="inner">
 						<header>
-							<p>Small and Portable for</p>
-							<h2>Documentary</h2>
+							<p>Klein en draagbaar voor</p>
+							<h2>Documentaire</h2>
 						</header>
 					</div>
 				</article>
@@ -67,7 +69,7 @@
 					<img src="../images/slide04.jpg"  alt="" />
 					<div class="inner">
 						<header>
-							<p>Location or Sound Stage for</p>
+							<p>Locatie of studio voor</p>
 							<h2>Series</h2>
 						</header>
 					</div>
@@ -76,7 +78,7 @@
 					<img src="../images/slide05.jpg"  alt="" />
 					<div class="inner">
 						<header>
-							<p>Fast and flexible for</p>
+							<p>Snel en flexibel voor</p>
 							<h2>EFP</h2>
 						</header>
 					</div>
@@ -91,7 +93,7 @@
 						<div>
 							<div class="box">
 								<div class="image fit">
-									<img src="../images/pic09.png" alt="" />
+									<img src="../images/pic02.jpg" alt="" />
 								</div>
 								<div class="content">
 								  <header class="align-center">
@@ -144,7 +146,7 @@
 						</div>
 						<div>
 							<div class="image fit">
-								<a><img src="../images/pic02.jpg" alt="" /></a>
+								<a><img src="../images/pic09.png" alt="" /></a>
 							</div>
 						</div>
 						<div>
@@ -166,8 +168,12 @@
 		<!-- Scripts -->
 			<script src="../assets/js/jquery.min.js"></script>
 			<script>
-				$(function(){
-					$("#includedFooter").load("../includes/footer.html"); 
+				$(document).ready(function(){
+					$(function(){
+      				$("#includedFooter").load("../includes/footer.html");
+					$('html').animate({scrollTop: 1}, 1);
+				    $('html').animate({scrollTop: 0}, 1);
+					});
 				});
 			</script>
 			<script src="../assets/js/jquery.scrollex.min.js"></script>

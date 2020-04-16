@@ -10,13 +10,14 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="../assets/css/main.css" />
+		<link rel="icon" href="../images/logo_wit.png" type="image/gif" sizes="16x16">
 	</head>
 	<body>
 
 		<!-- Header -->
 			<header id="header" class="alt">
 				<div class="logo">
-					<a href="index.html"><img src="../images/logo_wit.png" style="width:50px; margin-top: 2px"></a>	
+					<a href="index.html"><img src="../images/logo_wit.png" style="width:44px;"></a>	
 				</div>
 				<a style="padding-right: 3px; font-weight: 500;" href="index.html"><span class="activelink">EN</span></a>
 				<a style="padding-left: 3px; padding-right: 3px; font-weight: 500;" href="../nl/index.html">NL</a>
@@ -36,10 +37,11 @@
 
 		<!-- Banner -->
 			<section class="banner full">
-				<article>
+				<article id="index">
 					<img src="../images/slide01.jpg" alt="" />
 					<div class="inner">
 						<header>
+							<img id="banner_logo" src="../images/logo_wit.png" style="display: inline-block; position: relative; width:80px; bottom: 15px">
 							<p>Location Sound <a>Anywhere</a></p>
 							<h2>Sound Bites</h2>
 						</header>
@@ -91,7 +93,7 @@
 						<div>
 							<div class="box">
 								<div class="image fit">
-									<img src="../images/pic09.png" alt="" />
+									<img src="../images/pic02.jpg" alt="" />
 								</div>
 								<div class="content">
 								  <header class="align-center">
@@ -146,7 +148,7 @@
 						</div>
 						<div>
 							<div class="image fit">
-								<a><img src="../images/pic02.jpg" alt="" /></a>
+								<a><img src="../images/pic09.png" alt="" /></a>
 							</div>
 						</div>
 						<div>
@@ -168,8 +170,12 @@
 		<!-- Scripts -->
 			<script src="../assets/js/jquery.min.js"></script>
 			<script>
-				$(function(){
-      				$("#includedFooter").load("../includes/footer.html"); 
+				$(document).ready(function(){
+					$(function(){
+      				$("#includedFooter").load("../includes/footer.html");
+					$('html').animate({scrollTop: 1}, 1);
+				    $('html').animate({scrollTop: 0}, 1);
+					});
 				});
 			</script>
 			<script src="../assets/js/jquery.scrollex.min.js"></script>
