@@ -136,7 +136,7 @@
 			display: block;
 			margin-left: auto;
 			margin-right: auto;
-			width: 70%;
+			width: 50%;
 			text-decoration: none;
 			color: black;
 			font-family: Arial, Helvetica, sans-serif;	
@@ -151,6 +151,7 @@
 		.gallery-container p {
 			font-family: Arial, Helvetica, sans-serif;
 			font-size: 13px;
+			text-align: center;	
 			margin-bottom: 5px;
 			margin-top: 0;
 		}
@@ -159,6 +160,7 @@
 			font-family: Arial, Helvetica, sans-serif;
 			font-size: 18px;
 			margin-top: 5px;
+			text-align: center;	
 			margin-bottom: 0px;
 			display: block;
 		}
@@ -185,7 +187,7 @@
 			width: 100%;
 			text-decoration: none;
 			color: black;
-			font-family: Arial, Helvetica, sans-serif;	
+			font-family: Arial, Helvetica, sans-serif;
 		}
 
 		.banner_logo {
