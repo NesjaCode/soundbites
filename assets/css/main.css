@@ -105,6 +105,7 @@
 
 		.center {
 			margin-left: 0px;
+			height: auto;
 		}
 	}
 
@@ -195,6 +196,7 @@
 			margin-left: auto;
 			margin-right: auto;
 			width: 100%;
+			height: auto;
 		}
 	}
 
@@ -241,6 +243,7 @@
 			margin-left: auto;
 			margin-right: auto;
 			width: 250px;
+			height: auto;
 		}
 	}
 
