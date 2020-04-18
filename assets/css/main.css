@@ -71,24 +71,17 @@
 
 	@media screen and (max-width: 980px) {
 		.gallery-container p {
-			font-family: Arial, Helvetica, sans-serif;
 			font-size: 13px;
-			margin-bottom: 5px;
-			margin-top: 0;
 		}
 	
 		.gallery-container h3 {
-			font-family: Arial, Helvetica, sans-serif;
 			font-size: 18px;
-			margin-top: 5px;
-			margin-bottom: 0px;
-			display: block;
 		}
 
 		.gallery-container {
 			display: block;
 			margin: 0 auto;
-			width: 90%;
+			width: 100%;
 		}
 
 		.gallery-container div {
@@ -98,10 +91,9 @@
 		}
 
 		.gallery-container a {
-			display: block;
-			margin-left: auto;
-			margin-right: auto;
-			width: 50%;
+			display: inline-block;
+			margin: 10px 30px;
+			width: 40%;
 			text-decoration: none;
 			color: black;
 			font-family: Arial, Helvetica, sans-serif;	
@@ -111,6 +103,9 @@
 			display: inline-block !important;
 		}
 
+		.center {
+			margin-left: 0px;
+		}
 	}
 
 	.banner_logo {
@@ -120,18 +115,11 @@
 
 	@media screen and (max-width: 736px) {
 		.gallery-container p {
-			font-family: Arial, Helvetica, sans-serif;
 			font-size: 13px;
-			margin-bottom: 5px;
-			margin-top: 0;
 		}
 	
 		.gallery-container h3 {
-			font-family: Arial, Helvetica, sans-serif;
 			font-size: 18px;
-			margin-top: 5px;
-			margin-bottom: 0px;
-			display: block;
 		}
 
 		.gallery-container {
@@ -166,18 +154,11 @@
 
 	@media screen and (max-width: 480px) {
 		.gallery-container p {
-			font-family: Arial, Helvetica, sans-serif;
 			font-size: 13px;
-			margin-bottom: 5px;
-			margin-top: 0;
 		}
 	
 		.gallery-container h3 {
-			font-family: Arial, Helvetica, sans-serif;
 			font-size: 18px;
-			margin-top: 5px;
-			margin-bottom: 0px;
-			display: block;
 		}
 
 		.gallery-container {
@@ -219,18 +200,11 @@
 
 	@media screen and (max-width: 340px) {
 		.gallery-container p {
-			font-family: Arial, Helvetica, sans-serif;
 			font-size: 13px;
-			margin-bottom: 5px;
-			margin-top: 0;
 		}
 	
 		.gallery-container h3 {
-			font-family: Arial, Helvetica, sans-serif;
 			font-size: 18px;
-			margin-top: 5px;
-			margin-bottom: 0px;
-			display: block;
 		}
 
 		.gallery-container {
