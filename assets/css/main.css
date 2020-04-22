@@ -4350,7 +4350,7 @@
 			-webkit-transition: opacity 1s ease, visibility 1s;
 			-ms-transition: opacity 1s ease, visibility 1s;
 			transition: opacity 1s ease, visibility 1s;
-			background-attachment: scroll;
+			background-attachment: none;
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: cover;
