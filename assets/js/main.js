@@ -89,15 +89,6 @@ var settings = {
 
 			};
 
-			skel.on('change', function() {
-
-				if (skel.breakpoint('medium').active)
-					(off)();
-				else
-					(on)();
-
-			});
-
 		});
 
 		$window
