@@ -3612,7 +3612,7 @@
 		@media screen and (max-width: 1280px) {
 
 			.wrapper > .inner {
-				width: 75rem;
+				width: 90%;
 			}
 
 		}
